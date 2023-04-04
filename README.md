@@ -27,7 +27,7 @@ npm install
 
 From the `cityname-similarity` directory, run:
 ```
-node city.js word1 word2
+node names.js word1 word2
 ```
 The code will return a `Similarity` between 0 and 1 where 0 means the words aren't close to each other and 1 means they are the same.
 
