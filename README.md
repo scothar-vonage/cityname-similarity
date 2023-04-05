@@ -36,7 +36,7 @@ node names.js word1 word2
 ```
 The code will return a `Similarity` between 0 and 1 where 0 means the words aren't close to each other and 1 means they are the same.
 
-### Example:
+### Examples
 ```
 $ node names.js dallas destin
 Computing similarity of 'dallas' and 'destin'
@@ -52,6 +52,12 @@ Similarity: 0.9204545454545455
 ```
 
 ## metaphone.js
+```
+node metaphone.js word1 word2
+```
+The code will return a `Similarity` between 0 and 1 where 0 means the metaphones aren't close to each other and 1 means they are the same.
+
+### Examples
 ```
 $ node metaphone.js dallas destin
 Computing metaphones for 'dallas' and 'destin'
@@ -70,8 +76,15 @@ Metaphone for A: 'SNTM,SNTM' and for B: 'SNTR,SNTR'
 Similarity: 0.8833333333333334
 ```
 ## phonemes.js
-This file will search through about 45,000 city names to find the one that most closely matches the you pass in
+This file will search through about 45,000 city names to find the one that most closely matches the you pass in as an argument.
 
+```
+node names.js city
+```
+
+The code will return the closest metaphone match in the list of cities.
+
+### Examples
 ```
 $ node phonemes.js dallas
 Metaphone for 'dallas' is TLS,TLS
