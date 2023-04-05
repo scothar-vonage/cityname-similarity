@@ -2,9 +2,9 @@
 
 # Overview
 
-This simple script computes the simlarity between two words using the [Jaro-Winkler](https://en.wikipedia.org/wiki/Jaro%E2%80%93Winkler_distance) distance algorithm. 
+The scripts in this repository are samples that compute the simlarity between two words or metaphones using the [Jaro-Winkler](https://en.wikipedia.org/wiki/Jaro%E2%80%93Winkler_distance) distance algorithm. 
 
-There are a couple of ideas in this repository:
+The Scripts 
    * names.js -- Allows you to compare the distance between two words (or, say, city names)
    * metaphone.js -- Allows you to compare the distance between the metaphones of two words
    * phonemes.js -- Returns the closest metaphone match between the word you pass in as an argument and a list of almost 45,000 city names.
